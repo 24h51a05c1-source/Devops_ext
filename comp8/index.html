@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Calculator</title>
+</head>
+<body>
+    <h2>Simple Calculator</h2>
+
+    <input id="a" type="number" placeholder="First number">
+    <input id="b" type="number" placeholder="Second number">
+
+    <button id="add" onclick="add()">Add</button>
+
+    <p id="result"></p>
+
+    <script>
+        function add() {
+            var a = Number(document.getElementById("a").value);
+            var b = Number(document.getElementById("b").value);
+
+            document.getElementById("result").innerText = a + b;
+        }
+    </script>
+</body>
+</html>

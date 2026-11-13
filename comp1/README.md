@@ -1,0 +1,1 @@
+mvn org.apache.maven.plugins:maven-archetype-plugin:3.4.1:generate "-DgroupId=com.example" "-DartifactId=HelloCI" "-DarchetypeArtifactId=maven-archetype-quickstart" "-DinteractiveMode=false"

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Event Registration Form</h2>
+
+<form id="myForm">
+    Full Name: <input type="text" id="name"><br><br>
+
+    Email: <input type="text" id="email"><br><br>
+
+    Phone: <input type="text" id="phone"><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <br><br>
+
+    College Name: <input type="text" id="college"><br><br>
+
+    Department: <input type="text" id="dept"><br><br>
+
+    Year of Study:
+    <select id="year">
+        <option value="">Select Year</option>
+        <option>1st Year</option>
+        <option>2nd Year</option>
+        <option>3rd Year</option>
+        <option>4th Year</option>
+    </select>
+    <br><br>
+
+    Event:
+    <select id="event">
+        <option value="">Select Event</option>
+        <option>Technical Quiz</option>
+        <option>Hackathon</option>
+        <option>Coding Contest</option>
+        <option>Workshop</option>
+    </select>
+    <br><br>
+
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+</form>
+
+<p id="error"></p>
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
